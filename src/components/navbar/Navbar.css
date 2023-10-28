@@ -1,0 +1,33 @@
+.navbar_two{
+    padding: 15px;
+}
+.navbar_two header {
+    display: flex;
+}
+header input {
+    border-radius: 2px;
+    width: 400px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    font-weight: 600;
+}
+.btn h3 {
+    text-align: left;
+    padding: 10px 0;
+}
+.btns button {
+    background: white;
+    border: 1px solid black;
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btns button:hover {
+    background: black;
+    color: white;
+}
+.btns button.active{
+    background: black;
+    color: white;
+}
